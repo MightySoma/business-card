@@ -1,0 +1,105 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color: white;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+main{
+  background-color: #134074;
+  width:750px;
+  height:400px;
+  margin:100px auto;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position:relative;
+}
+
+.intro{
+  /* display:flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  margin: 40px 40px ;
+}
+
+.address{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 40px 40px ;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+  display:inline-block;
+}
+
+.intro p, a{
+  padding:8px 0;
+  margin: 0;
+}
+
+#name{
+  font-size:36px;
+  font-weight: 600px;
+  padding-bottom: 4px;
+}
+
+#designation{
+  font-size: 18px;
+  font-weight: 400px;
+  opacity: 0.7;
+  border-bottom: 1px dashed #e1e1e1a0;
+  width:180px;
+  padding-bottom: 16px;
+}
+
+#portfolio{
+  font-size: 18px;
+  font-weight: 400px;
+  color:#ABF0E2;
+  padding-top: 16px;
+}
+
+img + a{
+  font-size: 16px;
+  font-weight: 300px;
+  padding: 6px 0;
+  opacity:0.8;
+}
+
+img + a:hover, img + a:active{
+  color:#ABF0E2
+}
+
+img{
+  height: 20px;
+  width:20px;
+  margin: 6px 8px 6px 0;
+  fill:white;
+}
+
+section{
+  width: 500px;
+}
+
+.contact{
+  display:flex;
+}
+
+#watermark{
+  width:287px ;
+  height:364px ;
+  position: absolute;
+  right:20px;
+  top:10px;
+  opacity:0.05;
+}
